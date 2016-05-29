@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        @yield('title')
+        <title>Blog</title>
         <link rel="stylesheet" type="text/css" href="http://www.webdesignernews.com/css/main3.css?v=10.css" media="screen, print" />
         <link rel="stylesheet" type="text/css" href="/css/fancy/jquery.fancybox.css" media="screen, print" />
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700' rel='stylesheet' type='text/css'>
@@ -12,20 +12,19 @@
 
   </head>
     <body  class=" "  >
-        @include('partials.flash')
     
       <div id="gwrap">
 
         <div id="categories-menu">
           <nav id="categories-menu-content">
-              <a class="cat-menu-lnk active" href="/article" >All</a>
+              <a class="cat-menu-lnk active" href="/" >All</a>
                 <a class="cat-menu-lnk" href="/category/apps" >blabla</a>
            </nav>
         </div>
 
 
        <nav id="top-nav-links">
-                <a href="auth">Login</a>                                      
+                <a href="/auth" id="login-url-lnk">Login</a>                                      
       </nav>
 
 
