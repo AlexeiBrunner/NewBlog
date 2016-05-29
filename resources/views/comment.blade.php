@@ -88,7 +88,8 @@
         </div>
    
    
-      
+      </div> 
+
       
    <div class="clr"></div>
    
@@ -100,14 +101,23 @@
            </div> 
           </div>                
           <div class="clr"></div>
-                  
+                <table border="0" width="100%" cellspacing="1" cellpadding="2" class="commTable"> 
+<tr><td class="commTd2" colspan="2"></td></tr> 
+<tr><td width="15%" class="commTd1" nowrap>Имя *:</td><td class="commTd2"><input class="commFl" type="text" name="name"  size="30" maxlength="60"></td></tr> 
+<tr><td class="commTd1">Email:</td><td class="commTd2"><input class="commFl" type="text" name="email" size="30" maxlength="60"></td></tr> 
+<tr><td class="commTd2" colspan="2"> 
+  <table border="0" cellpadding="0" cellspacing="0" width="100%"> 
+  <tr><td valign="top"> 
+  <textarea class="commFl" style="margin-top:8px;height:100px;width:500px;background:#FFF;border-radius:7px;border:1px solid #00CCFF;font-size:12;text-shadow: 1px 1px 2px, gray 0 0 2em;color:#000"rows="8" name="message" id="message" cols="50"></textarea></td> 
+<td class="commTd2" colspan="2" align="center"><input type="submit" class="commSbmFl" id="addcBut" name="submit" style="margin-top:8px;height:100px;width:65px;background:#00CCFF;border-radius:7px;border:1px solid #fff;font-size:10;text-shadow: 1px 1px 2px, gray 0 0 2em;color:#FFF" value="Добавить"> 
+  </tr></td></tr></table> 
+  <td class="commTd2"></td></tr></td></tr></table>  
         </div>
         <div class="clr"></div>
+
         
   <div class="clr"></div>          
 </div>
-
-</div> 
 
 <!-- <div class="md-overlay"></div>
 
